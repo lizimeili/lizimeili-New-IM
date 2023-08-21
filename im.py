@@ -55,4 +55,5 @@ while True:
                 print("鱼跑走啦")
             if ne >51 and ne == 100:
                 print("钓鱼成功")  
-            
+        if nemu == 4:
+            break
