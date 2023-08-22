@@ -12,7 +12,7 @@ print("i        m   m m   m")
 print("by:lizimeili")
 
 while True:
-    nemu = input("文本写入请输1,随机数请输2,游戏请输3,退出请输4")
+    nemu = input("文本写入请输1,随机数请输2,游戏请输3,其他请输4,退出请输5")
     nemu = int(nemu)
     if nemu == 1:
         data = input("写入内容")
@@ -56,4 +56,33 @@ while True:
             if ne >51 and ne == 100:
                 print("钓鱼成功")  
         if nemu == 4:
-            break
+            print("简陋计算器,1")
+            ba = input()
+            if ba == 1:
+                print("加法,1,减法,2,乘法,3,除法,4")
+                ba = input()
+                ba = int(ba)
+                if ba == 1:
+                    jit1 = input("加数1")
+                    jit1 = int(jit1)
+                    jit2 = input("加数2")
+                    jit2 = int(jit2)
+                    print(jit1 + jit2)
+                elif ba == 2:
+                    jit1 = input("被减数")
+                    jit1 = int(jit1)
+                    jit2 = input("减数")
+                    jit2 = int(jit2)
+                    print(jit1 - jit2)
+                elif ba == 3:
+                    jit1 = input("被乘数")
+                    jit1 = int(jit1)
+                    jit2 = input("乘数")
+                    jit2 = int(jit2)
+                    print(jit1*jit2)
+                elif ba == 4:
+                jit1 = input("被除数")
+                jit1 = int(jit1)
+                jit2 = input("除数")
+                jit2 = int(jit2)
+                print(jit1/jit2)
